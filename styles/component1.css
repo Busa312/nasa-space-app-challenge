@@ -1,0 +1,68 @@
+.nav-bar {
+    position: absolute;
+    padding: 35px 0;
+    right: 65px;
+    
+
+}
+
+.nav-bar ul li {
+    list-style: none;
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.nav-bar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: rgba(0, 254, 156, 1);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.nav-bar ul li:hover::after {
+    width: 100%;
+}
+
+.text-and-button p {
+    width: 631px;
+    height: 160px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    font-size: 30px;
+    color: white;
+    stroke: 1px black;
+    text-shadow:rgba(0, 0, 0, 0.25);
+    margin-bottom: 105px;
+
+}
+
+.text-and-button {
+    padding: 320px 98px;
+}
+
+.text-and-button a button {
+    width: 340px;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 25px;
+    background: rgba(0, 254, 156, 1);
+    color: black;
+    font-size: 30px;
+    border: none;
+
+}
+
+.text-and-button a button:hover {
+    cursor: pointer;
+    box-shadow:  5px 5px 10px #D9D9D9;
+}
+
